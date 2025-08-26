@@ -27,7 +27,7 @@ Each question is rated to help you balance your work:
 
 ## Question 1 - Hello World :red_circle::white_circle::white_circle::white_circle::white_circle:
 
-question1:熟悉go的基本打印方式，认识io输入输出的库fmt，并且用for循环
+#### question1:熟悉go的基本打印方式，认识io输入输出的库fmt，并且用for循环
 
 Below is a complete 'Hello World' program written in Go:
 
@@ -52,7 +52,7 @@ Modify `hello.go` so that it uses a for loop to print Hello World 20 times.
 
 ## Question 2 - Quiz :red_circle::white_circle::white_circle::white_circle::white_circle:
 
-question2: 学会如何定义变量，引用函数
+#### question2: 学会如何定义变量，引用函数
 
 Open `quiz.go`. It's a skeleton for a quiz program. Write a `main()` using the provided helper functions so that your program asks the 6 questions from `quiz-questions.csv` and prints out the final score at the end.
 
@@ -72,7 +72,7 @@ Use a [for-range loop](https://gobyexample.com/range) to ask all the questions.
 
 ## Question 3 - Arrays vs Slices :red_circle::red_circle::white_circle::white_circle::white_circle:
 
-question3:学会for-range循环写函数，slice和array的区别和怎么声明定义他们，append函数用法
+#### question3:学会for-range循环写函数，slice和array的区别和怎么声明定义他们，append函数用法
 
 Open `sequences.go`.
 
@@ -133,8 +133,7 @@ Given the differences that you found between arrays and slices:
 
 ## Question 4 - Game of Life :red_circle::red_circle::white_circle::white_circle::white_circle:
 
-question4: 这一题我觉得比较难，查了一下可能是某一年的大项目，主要在过度依赖老师写的c的计算方式，
-实际在go中用for循环探索八个邻居的属性而不是直接获取坐标累加， 这个比较难可以后面再复现一下试试
+#### question4: 这一题我觉得比较难，查了一下可能是某一年的大项目，主要在过度依赖老师写的c的计算方式，实际在go中用for循环探索八个邻居的属性而不是直接获取坐标累加， 这个比较难可以后面再复现一下试试
 
 Time to test what you've learnt! 
 
@@ -167,7 +166,7 @@ Once all your tests pass you can use `go run .` and see if you get the hidden me
 
 ## Question 5 - Concurrent Hello World :red_circle::white_circle::white_circle::white_circle::white_circle:
 
-question5:学习到了go的特殊的一个东西并行执行，需要考虑时序的问题，用sync和time包，其中能用函数定义来放在go后面，不要直接接代码会顺序乱
+#### question5:学习到了go的特殊的一个东西并行执行，需要考虑时序的问题，用sync和time包，其中能用函数定义来放在go后面，不要直接接代码会顺序乱
 
 A goroutine is a lightweight thread of execution. Modify your `hello.go` so that it uses a for loop to start 5 goroutines and print `Hello from goroutine i` where `i` is the number of the goroutine.
 
